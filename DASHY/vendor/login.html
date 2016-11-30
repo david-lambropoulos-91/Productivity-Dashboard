@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Reference: https://youtu.be/pmXtNHLx9fc -->
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    
+     <script language="javascript" type="text/javascript">
+      function submit(){
+        window.location.href = "../admin/index.html";
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="../img/user.png">
+      <form>
+        <header>
+          <h3>
+            Welcome to your dashboard! Please sign in below,
+          </h3>
+        </header>
+        <div class="form-input">
+          <input type="text" name="username" placeholder="Enter Username">
+        </div>
+        <div class="form-input">
+          <input type=password name="password" placeholder="Enter Password" class="pass">
+        </div>
+        <input type="submit" name="submit" value="LOGIN" class="btn-login" onclick="window.location.href = '../admin/index.html';"><br>
+        <a href="#">
+          Forget password?
+        </a>
+      </form>
+    </div>
+
+  </body>
+</html>
